@@ -23,7 +23,7 @@ class Store():
         if product in self.items:
             self.items[product] = price
         else:
-            return False    
+            return False
         print(self.items)
 
 
